@@ -1,0 +1,3 @@
+Hello, my name is Julian.
+I'm 39 years old.
+My favourite programming language is python.

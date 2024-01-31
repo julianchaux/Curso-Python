@@ -9,7 +9,7 @@ def home():
     return render_template("index.html")
 
 @app.route('/blog')
-def blog():
+def get_blog():
     #Fake blog: https://www.npoint.io/docs/c790b4d5cab58020d391
     response = requests.get(url="https://api.npoint.io/c790b4d5cab58020d391")
     response.raise_for_status()
